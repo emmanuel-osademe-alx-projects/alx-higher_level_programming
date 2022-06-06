@@ -13,4 +13,4 @@ if type(number) is int:
     elif last == 0:
         print(f"Last digit of {number} is {last} and is 0")
 else:
-  raise TypeError("Only integers are allowed")
+    raise TypeError("Only integers are allowed")
