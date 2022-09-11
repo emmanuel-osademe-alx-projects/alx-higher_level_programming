@@ -1,2 +1,5 @@
 #!/usr/bin/node
-exports.addMeMaybe = (num, cb) => cb(++num);
+exports.addMeMaybe = function (num, cb) {
+  const nNum = num + 1;
+  cb(nNum);
+};
